@@ -15,7 +15,7 @@ In src/ directory:
 Create a GitHub [personal access token](https://github.com/settings/tokens) with access to your fork of the repo, including "admin:repo_hook" and "repo" permissions.  Then store the token in Parameter Store:
 
 ```
-aws ssm put-parameter --name GitHubToken --type String --value 48401b129181abdd0fdfb0d28f1d166919ff9b80
+aws ssm put-parameter --name GitHubToken --type String --value xyz
 ```
 
 ## Customize
